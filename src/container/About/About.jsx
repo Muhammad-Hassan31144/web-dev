@@ -1,40 +1,45 @@
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import { Cube } from "../../constants/Cube";
-import { Cyber } from "../../constants/Cyber";
-import { Laptop } from "../../constants/Laptop";
-import { Books } from "../../constants/Books";
+import {images} from "../../constants/index"
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./About.scss";
 const About = () => {
+  // const [abouts, setAbouts] = useState([]);
+
+  // useEffect(() => {
+  //   const query = '*[_type == "abouts"]';
+
+  //   client.fetch(query).then((data) => {
+  //     setAbouts(data);
+  //   });
+  // }, []);
 
   const abouts = [
     {
       title: "Reader",
       description:
         "I don't just read the books when I'm bored, but I do it for socializing because Books are your friends. And am glad to have hundreds of friends.",
-      model: <Books fov={22} scale={1} />
+      imgUrl: images.read
       ,
     },
     {
       title: "CyberSecurity",
       description:
         "Well, I'm a cybersecurity student, which essentially means secure coding design and development comes naturally to me. And when it comes to business I'm one of the best.",
-      model: <Cyber position={[0, 0, 1]} />,
+      imgUrl: images.cyber,
     },
     {
       title: "Puzzle Solver",
       description:
         "That's an overstatement because I only solve rubik's cube upto 5x5. I may not be the speedy guy whilst solving them but hey! atleast I can solve'em",
-      model: <Cube position={[0, 0, 1]} />,
+      imgUrl: images.puzzle,
     },
     {
       title: "Web Developer",
       description:
         "I can kill frontend development in react and tailwind. And I'm also hardeing my grip on backend coding as well. I am comfortable with MERN stack at the moment.",
-      model: <Laptop position={[0, 0, 1]} />
+      imgUrl: images.web
       ,
     },
   ];
@@ -53,11 +58,8 @@ const About = () => {
             className="app__profile-item"
             key={about.title}
           >
-            <Canvas>
-              <ambientLight intensity={1} />
-              <OrbitControls />
-              {about.model}
-            </Canvas>
+            <img src={about.imgUrl} alt={about.title} />
+           
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}
             </h2>
