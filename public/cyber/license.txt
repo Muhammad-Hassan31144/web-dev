@@ -1,0 +1,11 @@
+Model Information:
+* title:	Flipperzero hacking tool
+* source:	https://sketchfab.com/3d-models/flipperzero-hacking-tool-2c7d2ac3d7d54d3883ea76158fc288c3
+* author:	krishna_hxcker (https://sketchfab.com/krishna_hxcker)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Flipperzero hacking tool" (https://sketchfab.com/3d-models/flipperzero-hacking-tool-2c7d2ac3d7d54d3883ea76158fc288c3) by krishna_hxcker (https://sketchfab.com/krishna_hxcker) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
