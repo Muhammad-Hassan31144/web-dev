@@ -7,6 +7,7 @@ import passgen from "../../assets/passgen.png";
 import port from "../../assets/port.png";
 import apple from "../../assets/apple.png";
 import lib from "../../assets/lib.png";
+import idoc from "../../assets/idoc.jpg";
 const Work = () => {
 
 
@@ -47,6 +48,15 @@ const Work = () => {
       codeLink: "https://github.com/Muhammad-Hassan31144/my-library",
       tags: "DaisyUI",
     },
+    {
+      title: "Idoc Clone",
+      description:"I made a clone of Idoc, a website that provides medical services. I used html & css to make it responsive and used SwiperJS to make it lively and animated.",
+      imageUrl: idoc,
+      projectLink: "https://muhammad-hassan31144.github.io/eyeDoc-clone/",
+      codeLink: "https://github.com/Muhammad-Hassan31144/eyeDoc-clone",
+      tags: "SwiperJS",
+    }
+
   ];
 
   

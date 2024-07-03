@@ -4,13 +4,13 @@
 :root {
   --font-base: "DM Sans", sans-serif;
 
-  --primary-color: #fc6b61;
-  --secondary-color: #7531acba;
+  --primary-color: #fc6b61b4;
+  --secondary-color: #7531ac7a;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #f4f8ff;
   --brown-color: #46364a;
-  --white-color: #ff5e5e;
+  --white-color: #ff5e5edf;
 }
 
 * {
